@@ -126,7 +126,10 @@ button {
 }
 /* ================================================= */
 .skewed-bg {
-  background: #dff5f5;
+  background: #ECE9E6;  
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
   padding: 200px 0;
   -webkit-transform: skew(0deg, -10deg);
   transform: skew(0deg, -10deg);
@@ -147,7 +150,10 @@ button {
   color: #000;
 }
 .rvskewed-bg {
-  background: #dff5f5;
+  background: #ECE9E6;
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
   padding: 200px 0;
   -webkit-transform: skew(0deg, 10deg);
   transform: skew(0deg, 10deg);
