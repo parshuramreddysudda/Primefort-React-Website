@@ -1,5 +1,5 @@
 html, body {
-font-family: 'Ubuntu', sans-serif;
+font-family:  "Aeonik",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #111;
   height: 100%;
   margin: 0;
@@ -34,7 +34,7 @@ button {
 }
 
 .second, .four span {
-  color: #ff0000 !important;
+  color: #0068e0 !important;
 }
 
 .third, .five,.seven {
@@ -123,4 +123,52 @@ button {
 
 .third a:hover, .five a:hover, .six a:hover, .seven a:hover, .eight a:hover {
   background: linear-gradient(to right, var(--mainColor) 0%, var(--mainColor) 5px, transparent);
+}
+/* ================================================= */
+.skewed-bg {
+  background: #dff5f5;
+  padding: 200px 0;
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+  margin-top: -200px;
+}
+.skewed-bg .content {
+  -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg);
+  text-align: center;
+}
+.skewed-bg .content .title {
+  padding-top: 100px;
+  font-weight: normal;
+}
+.skewed-bg .content .text {
+  width: 60%;
+  margin: 25px auto;
+  color: #000;
+}
+.rvskewed-bg {
+  background: #dff5f5;
+  padding: 200px 0;
+  -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg);
+  margin-top: -200px;
+}
+.rvskewed-bg .content {
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+  text-align: center;
+}
+.rvskewed-bg .content .title {
+  padding-top: 100px;
+  font-weight: normal;
+}
+.rvskewed-bg .content .text {
+  width: 60%;
+  margin: 25px auto;
+  color: #000;
+}
+
+
+.footer{
+  padding-top: 100px !important;
 }
