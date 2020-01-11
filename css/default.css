@@ -33,6 +33,8 @@ button {
   transition-duration: .3s;
 }
 
+
+
 .second, .four span {
   color: #0068e0 !important;
 }
@@ -45,15 +47,13 @@ button {
   color: #0068e0;
 }
 
-.four1 {
-  border-radius: 10px !important;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+/*
 
 .four1 img {
   max-width: 450px;
   max-height: 400px;
 }
+*/
 
 .seven img {
   max-width: 100px;
@@ -126,9 +126,8 @@ button {
 }
 /* ================================================= */
 .skewed-bg {
-  background: #ECE9E6;  
-background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
-background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+  background: rgb(246, 247, 249);
 
   padding: 200px 0;
   -webkit-transform: skew(0deg, -10deg);
@@ -150,9 +149,8 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6);
   color: #000;
 }
 .rvskewed-bg {
-  background: #ECE9E6;
-background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
-background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+  background: rgb(246, 247, 249);
 
   padding: 200px 0;
   -webkit-transform: skew(0deg, 10deg);
