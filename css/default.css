@@ -79,6 +79,9 @@ button {
   float: left;
   clear: left
 }
+.nav-item{
+    margin: auto;
+}
 .text{
   height: 700px;
   width: auto;
